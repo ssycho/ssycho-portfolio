@@ -10,7 +10,7 @@ const year = date.getFullYear();
 function App() {
     return (
         <div className="container mx-auto min-h-screen flex lg:flex-row flex-col gap-4">
-            <div className="absolute right-4 top-4">
+            <div className="fixed right-4 top-4">
                 <ThemeToggle />
             </div>
             <Sidebar className="flex-1 lg:flex-3/12 self-start" />

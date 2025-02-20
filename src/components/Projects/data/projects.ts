@@ -8,7 +8,7 @@ const PROJECTS: Project[] = [
         icon: "/favicon.ico",
         illustration: PortfolioIllustration,
         projectUrl: "https://spycho.vercel.app",
-        repositoryUrl: "https://github.com",
+        repositoryUrl: "https://github.com/lonlee-spycho/spycho",
     },
 ];
 
