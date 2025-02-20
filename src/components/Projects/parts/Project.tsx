@@ -28,7 +28,7 @@ function Project({
                         alt={title}
                         width="auto"
                         height="auto"
-                        className="size-10 aspect-square object-cover"
+                        className="size-10 aspect-square object-cover rounded-lg"
                     />
                     <p>{title}</p>
                 </CardTitle>
