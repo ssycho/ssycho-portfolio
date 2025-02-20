@@ -7,7 +7,7 @@ import Copyright from "@/components/Copyright";
 
 export default function App() {
     return (
-        <div className="container mx-auto min-h-screen flex lg:flex-row flex-col gap-4 relative z-0">
+        <div className="container mx-auto min-h-screen flex lg:flex-row flex-col gap-4">
             <div className="fixed right-4 top-4">
                 <ThemeToggle />
             </div>
