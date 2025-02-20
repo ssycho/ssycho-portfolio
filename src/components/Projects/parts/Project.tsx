@@ -29,6 +29,7 @@ function Project({
                         width="auto"
                         height="auto"
                         className="size-10 aspect-square object-cover rounded-lg"
+                        draggable={false}
                     />
                     <p>{title}</p>
                 </CardTitle>
@@ -41,6 +42,7 @@ function Project({
                     width="auto"
                     height="auto"
                     className="w-full h-52 aspect-video object-cover object-top"
+                    draggable={false}
                 />
             </CardContent>
             {(projectUrl || repositoryUrl) && (
