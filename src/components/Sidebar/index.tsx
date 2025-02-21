@@ -13,7 +13,7 @@ function Sidebar({ className }: Props) {
     return (
         <nav
             className={cn(
-                "relative mt-8 lg:mt-0 lg:sticky lg:top-8 lg:left-0 w-full px-2 space-y-6 ",
+                "relative mt-8 lg:mt-0 lg:sticky lg:top-8 lg:left-0 w-full px-6 lg:px-2 space-y-6 ",
                 className
             )}
         >

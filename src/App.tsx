@@ -13,7 +13,7 @@ export default function App() {
             </div>
             <Sidebar className="flex-1 lg:flex-3/12 self-start" />
             <main className="flex-1 lg:flex-9/12 pt-8">
-                <Projects projects={PROJECTS} className="lg:px-0 px-2" />
+                <Projects projects={PROJECTS} className="lg:px-0 px-6" />
                 <Copyright />
             </main>
         </div>

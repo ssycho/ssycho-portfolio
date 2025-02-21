@@ -33,7 +33,7 @@ function Project({
                     />
                     <p>{title}</p>
                 </CardTitle>
-                <CardDescription>{description}</CardDescription>
+                <CardDescription className="mt-1">{description}</CardDescription>
             </CardHeader>
             <CardContent className="px-0">
                 <img
@@ -41,7 +41,7 @@ function Project({
                     alt={title + " illustration"}
                     width="auto"
                     height="auto"
-                    className="w-full h-64 aspect-video object-cover object-top"
+                    className="w-full h-60 aspect-video object-cover object-top"
                     draggable={false}
                 />
             </CardContent>
