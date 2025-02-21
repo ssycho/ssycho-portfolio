@@ -41,7 +41,7 @@ function Project({
                     alt={title + " illustration"}
                     width="auto"
                     height="auto"
-                    className="w-full h-52 aspect-video object-cover object-top"
+                    className="w-full h-64 aspect-video object-cover object-top"
                     draggable={false}
                 />
             </CardContent>
