@@ -1,6 +1,6 @@
 import { IconBrandGithub, IconMail } from "@tabler/icons-react";
 import Bagdes from "./parts/Badges";
-import ProfilePicture from "@/assets/profile.jpg";
+import ProfilePicture from "@/assets/profile2.jpg";
 import { Button } from "../ui/button";
 import { cn } from "@/lib/utils";
 import Visitor from "../Visitor";
