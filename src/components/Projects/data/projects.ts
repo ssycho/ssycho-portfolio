@@ -5,8 +5,8 @@ import VeedIcon from "@/assets/vee-d-icon.webp";
 
 const PROJECTS: Project[] = [
     {
-        title: "Spycho L",
-        description: "Spycho L - Silly NextJs and NodeJs Developer",
+        title: "Ssycho - portfolio",
+        description: "Ssycho - Silly NextJs and NodeJs Developer",
         icon: "/favicon.ico",
         illustration: PortfolioIllustration,
         projectUrl: "https://spycho.vercel.app",

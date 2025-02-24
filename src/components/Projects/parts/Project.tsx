@@ -20,8 +20,19 @@ function Project({
     repositoryUrl,
 }: Project) {
     return (
-        <Card className="">
-            <CardHeader>
+        <Card className="overflow-hidden">
+            
+            <CardContent className="px-0 pb-0 ">
+                <img
+                    src={illustration}
+                    alt={title + " illustration"}
+                    width="auto"
+                    height="auto"
+                    className="w-full h-60 aspect-video object-cover object-top"
+                    draggable={false}
+                />
+            </CardContent>
+            <CardHeader className="p-4">
                 <CardTitle className="flex items-center gap-2">
                     <img
                         src={icon}
@@ -33,18 +44,10 @@ function Project({
                     />
                     <p>{title}</p>
                 </CardTitle>
-                <CardDescription className="mt-1">{description}</CardDescription>
+                <CardDescription className="mt-1">
+                    {description}
+                </CardDescription>
             </CardHeader>
-            <CardContent className="px-0">
-                <img
-                    src={illustration}
-                    alt={title + " illustration"}
-                    width="auto"
-                    height="auto"
-                    className="w-full h-60 aspect-video object-cover object-top"
-                    draggable={false}
-                />
-            </CardContent>
             {(projectUrl || repositoryUrl) && (
                 <CardFooter className="w-full flex items-center justify-end gap-2">
                     {repositoryUrl && (

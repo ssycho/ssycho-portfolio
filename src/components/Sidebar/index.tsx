@@ -23,11 +23,11 @@ function Sidebar({ className }: Props) {
                 height="auto"
                 className="aspect-square rounded-full size-40 lg:size-64 object-cover"
                 draggable={false}
-                title="Spycho L"
+                title="Ssycho"
             />
             <div className="overview | space-y-4">
                 <h1 className="text-4xl font-bold">
-                    Spycho L <Visitor />
+                    Ssycho <Visitor />
                 </h1>
                 <Bagdes />
             </div>
