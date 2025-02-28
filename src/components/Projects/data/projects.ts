@@ -10,7 +10,7 @@ const PROJECTS: Project[] = [
         icon: "/favicon.ico",
         illustration: PortfolioIllustration,
         projectUrl: "https://spycho.vercel.app",
-        repositoryUrl: "https://github.com/lonlee-spycho/spycho",
+        repositoryUrl: "https://github.com/ssycho/ssycho-portfolio",
     },
     {
         title: "Vee'd",
@@ -18,7 +18,7 @@ const PROJECTS: Project[] = [
         icon: VeedIcon,
         illustration: VeedIllustration,
         projectUrl: "https://vee-d.vercel.app",
-        repositoryUrl: "https://github.com/lonlee-spycho/vee-d",
+        repositoryUrl: "https://github.com/ssycho/vee-d",
     },
 ];
 
